@@ -13,6 +13,7 @@ li {
 }
 a,
 a:visited {
+  position:relative;
   color: white;
   text-decoration: none;
   transition: 0.3s;
@@ -43,11 +44,13 @@ body {
   height: 100px;
   width: 100px;
   background: rgb(255, 255, 255);
+  transition: 0.2s ease;
 }
 #mouse2{
   height: 200px;
   width: 200px;
   background: rgb(41, 41, 41);
+  transition: 0.3s ease;
 }
 /* **************************************************** */
 nav {
